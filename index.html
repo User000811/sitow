@@ -1,0 +1,120 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>pagina base</title>
+
+<style>
+    body{
+       background: url('sfondoanimato.png');
+       background-repeat: repeat;
+       background-position: 0 0;
+       background-size: cover;
+       animation: animazione-sfondo 100s linear infinite;
+       
+      
+    }
+    
+    @keyframes animazione-sfondo {
+    100%{
+        background-position:0px -3000px;
+    }
+    }
+
+   
+    .title{
+        width:100%;
+        height:135px;
+        text-align:center;
+        color:black;
+        font-size:37px;
+        font-family:Sans;
+        background-color:white;
+        opacity:0.5;
+    }
+   
+    
+
+    nav {
+      background-color: black;
+     
+     width:98.5%;
+      padding: 10px;
+      
+      
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 215px;
+      
+    }
+
+    li a {
+      text-decoration: none;
+      position:center;
+      color: white;
+      padding: 8px 12px;
+      transition: background-color 0.3s;
+      font-size:22px;
+      opacity:100%;
+    }
+    
+    li a:hover {
+      background-color: black;
+      border-radius: 20px;
+      opacity:0.5;
+    }
+    
+    .minecraft{
+        width:30%;
+        height:279px;
+        background-image:url(minecraft.png);
+        background-position: 0 0;
+       background-size: cover;
+       margin:40px;
+    }
+
+    .sfondo_minecraft{
+        width:100%;
+        height:40px;
+        background-color:white;
+        text-align:center;
+        font-size:40px;
+    }
+</style>
+</head>
+
+<body>
+<div class="title">
+    <h1>GAMEHACK</h1>
+</div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chi siamo</a></li>
+            <li><a href="#">Servizi</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Negozio</a></li>
+        </ul>
+    </nav>
+
+<div class="minecraft">
+    <div class="sfondo_minecraft">
+        <a href="https://www.minecraft.net/it-it">Minecraft</a>
+    </div>
+    
+    
+</div>
+
+    
+
+    
+</body>
+
+</html>
